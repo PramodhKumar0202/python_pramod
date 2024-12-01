@@ -16,7 +16,7 @@ print(mixed_names)
 #accessing list 
 
 fruits =["apple","banana","pineapple","kiwi"]
-print(fruits[0])
+print(fruits[0]) # accessing using index values 
 print(fruits[2])
 print(fruits[-1]) # prints kiwi
 
@@ -57,5 +57,6 @@ fruits.sort()
 fruits.reverse() # reverse the list
 
 
+ 
 fruits.clear()
 
