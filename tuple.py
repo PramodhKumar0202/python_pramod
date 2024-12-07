@@ -25,4 +25,25 @@ print(concatenation)
 
 numbers *3
 
+#immutable nature of tuple 
+
+lst =[1,2,3,4,5,6]
+lst[1]="pramod" # we can change in list 
+
+numbers[1]= "pramod" # error tuple we can't change element 
+
+numbers.count(1) 
+numbers.index(2)
+
+#packing and unpacking tuple 
+
+pack_tuple =1,"hello",3.14 # whenever you create like this it will tuple 
+
+#unpacking tuple 
+a,b,c =pack_tuple
+print(a)
+print(b)
+print(c)
+
+
 
